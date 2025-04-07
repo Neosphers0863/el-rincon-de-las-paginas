@@ -1,0 +1,60 @@
+.aplicativo {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  padding-top: 5px;
+  width: 100px;
+}
+
+.search-bar {
+  border: 1px solid #ef7254;
+  border-radius: 20px;
+  background: #fff;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 9px;
+  font-size: 14px;
+}
+
+.nav-menu ul {
+  margin: 20px;
+  display: flex;
+  gap: 50px;
+  
+}
+
+.nav-menu li {
+  margin: 10px;
+  
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-menu a:hover {
+  color: #ef7254;
+}
