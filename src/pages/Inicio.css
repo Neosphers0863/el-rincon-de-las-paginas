@@ -1,11 +1,11 @@
-.aplicativo {
+/*.aplicativo {
   width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-
+*/
 .sidebar {
   background-color: #fff;
   padding: 20px;
@@ -57,4 +57,20 @@
 
 .nav-menu a:hover {
   color: #ef7254;
+}
+
+.letra-inicio {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+  font-size: 500%;
+  color: white;
+}
+
+.letra-inicio-pequeña {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: 300%;
+  color: white;
 }
